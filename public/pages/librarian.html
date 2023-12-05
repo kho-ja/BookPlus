@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="shadow">
+      <div class="container flex justify-between items-center">
+        <img src="../../images/logo.png" alt="" />
+        <div class="flex gap-4">
+          <select name="lang" id="lang">
+            <option value="uz">uz</option>
+            <option value="jp">jp</option>
+          </select>
+          <div class="bg-amber-600 p-4 rounded-full">
+            <img src="../../images/profil.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mt-16">
+      <div class="container">
+        <h1 class="uppercase font-bold text-2xl">onlayn kutubxona</h1>
+        <div class="flex gap-4 flex-wrap mt-4">
+          <button
+            class="bg-amber-600 text-white px-6 py-2 rounded flex items-center gap-4"
+          >
+            Kitob qo‘shish
+            <img src="../images/plus.svg" alt="plus" />
+          </button>
+          <button
+            class="bg-amber-600 text-white px-6 py-2 rounded flex items-center gap-4"
+          >
+            Kitob Berish
+            <img src="../images/copy.svg" alt="copy" />
+          </button>
+          <button
+            class="bg-amber-600 text-white px-6 py-2 rounded flex items-center gap-4"
+          >
+            Kitob Olish
+            <img src="../images/copy.svg" alt="copy" />
+          </button>
+          <button
+            class="bg-amber-600 text-white px-6 py-2 rounded flex items-center gap-4"
+          >
+            Kategoriyalar Qo’shish
+            <img src="../images/category.svg" alt="category" />
+          </button>
+          <button
+            class="bg-amber-600 text-white px-6 py-2 rounded flex items-center gap-4"
+          >
+            Filter
+            <img src="../images/filter.svg" alt="filter" />
+          </button>
+        </div>
+        <section class="mt-8">
+          <table class="w-full border-spacing-4">
+            <thead class="font-bold text-left">
+              <tr class="border-b">
+                <th class="py-4">№</th>
+                <th class="py-4">Kitob ID</th>
+                <th class="py-4">Kitob Nomi</th>
+                <th class="py-4">Muallif</th>
+                <th class="py-4">Nashriyot</th>
+                <th class="py-4">Chop etilgan yil</th>
+                <th class="py-4">Soni</th>
+                <th class="py-4">
+                  <img src="../images/info.svg" alt="info" />
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="py-4">1</td>
+                <td class="py-4">IT-111</td>
+                <td class="py-4">IT olami H</td>
+                <td class="py-4">Temur M</td>
+                <td class="py-4">Azon Uz</td>
+                <td class="py-4">2020</td>
+                <td class="py-4">10</td>
+                <td class="py-4">
+                  <img src="../images/drag.svg" alt="drag" />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </main>
+    <nav class="fixed bottom-0 left-0 right-0">
+      <div class="container flex justify-center text-white capitalize">
+        <ul class="flex gap-1 grow rounded-t-3xl overflow-hidden max-w-min">
+          <li>
+            <a
+              href="#"
+              class="bg-gray-800 p-4 w-52 flex items-center flex-col gap-4"
+            >
+              <img src="../images/library.svg" alt="library" />
+              kutubxona
+            </a>
+          </li>
+          <li>
+            <a
+              href="./usersLibrarian.html"
+              class="bg-amber-600 p-4 w-52 flex items-center flex-col gap-4"
+            >
+              <img src="../images/users.svg" alt="user" />
+              Foydalanuvchilar
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="bg-amber-600 p-4 w-52 flex items-center flex-col gap-4"
+            >
+              <img src="../images/cart.svg" alt="cart" />
+              Buyurtmalar
+            </a>
+          </li>
+          <li>
+            <a
+              href="#"
+              class="bg-amber-600 p-4 w-52 flex items-center flex-col gap-4"
+            >
+              <img src="../images/profil.svg" alt="profil" />
+              Profil
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <script type="module" src="../../main.js"></script>
+  </body>
+</html>

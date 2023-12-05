@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./images/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind CSS with HTML Started</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="bg-background h-screen bg-cover">
+      <div class="container grid place-items-center h-full">
+        <div class="bg-white py-8 px-12 text-center w-96 rounded-3xl">
+          <img class="w-full" src="./images/logo.png" alt="BookPlus" />
+          <h1 class="uppercase font-bold text-4xl">kirish</h1>
+          <form>
+            <input
+              type="text"
+              class="bg-gray-200 from-neutral-800 w-full mt-4 p-4 rounded"
+              placeholder="Login"
+            />
+            <input
+              type="password"
+              class="bg-gray-200 from-neutral-800 w-full mt-4 p-4 rounded"
+              placeholder="Parol"
+            />
+            <a href="./pages/librarian.html">kutubxonachi</a>
+            <a href="./pages/user.html">Foydalanuvchi</a>
+            <button class="w-full bg-slate-900 p-4 mt-4 rounded text-white">
+              Kirish
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
